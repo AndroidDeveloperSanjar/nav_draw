@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/ic_menu_main"
+            android:title="@string/menu_main" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="@string/menu_search" />
+        <item
+            android:id="@+id/nav_contacts"
+            android:icon="@drawable/ic_menu_contacts"
+            android:title="@string/menu_contacts" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_settings"
+                android:title="@string/menu_settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/menu_about" />
+            <item
+                android:id="@+id/nav_about1"
+                android:title="@string/menu_about1" />
+            <item
+                android:id="@+id/nav_about2"
+                android:title="@string/menu_about2" />
+            <item
+                android:id="@+id/nav_about3"
+                android:title="@string/menu_about3" />
+            <item
+                android:id="@+id/nav_about4"
+                android:title="@string/menu_about4" />
+            <item
+                android:id="@+id/nav_about5"
+                android:title="@string/menu_about5" />
+
+        </menu>
+    </item>
+
+</menu>
